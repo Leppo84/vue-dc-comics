@@ -96,13 +96,22 @@ export default {
 }
 
 .container {
-  width: 90%;
+  width: 80%;
+  display: flex;
+  margin: 0 auto;
+}
+
+.fx {
   display: flex;
 }
 
-.row {
-  width: 100%;
+.col50 {
+  width: 50%;
 }
+
+// .row {
+//   width: 100%;
+// }
 
 .ai-center {
   align-items: center;

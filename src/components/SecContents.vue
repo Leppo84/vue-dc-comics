@@ -1,10 +1,10 @@
 <template>
   <section class="bg black">
-    <span class="txt-white">
-      <b>
+    <div class="container">
+      <h3 class="txt-white">
         --> Content goes here
-      </b>
-    </span>
+      </h3>
+    </div>
   </section>
 </template>
 
@@ -16,4 +16,13 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
+
+section.bg {
+  padding: 30px 0;
+
+  div h3 {
+    text-align: start;
+  }
+}
+
 </style>
