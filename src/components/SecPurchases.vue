@@ -1,6 +1,6 @@
 <template>
   <section class="bg dc-blue">
-    <div class="container ji-between">
+    <div class="container fx ji-between">
       <div class="obj txt-white">
         Coso 1
       </div>

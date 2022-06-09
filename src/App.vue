@@ -39,7 +39,7 @@ export default {
   margin: 0;
   border: 0;
   box-sizing: border-box;
-  text-align: center;
+  // text-align: center;
 }
 
 #app {
@@ -97,7 +97,6 @@ export default {
 
 .container {
   width: 80%;
-  display: flex;
   margin: 0 auto;
 }
 
@@ -105,8 +104,16 @@ export default {
   display: flex;
 }
 
+.wrap {
+  flex-wrap: wrap;
+}
+
 .col50 {
   width: 50%;
+}
+
+.col-sixth {
+  width: calc(100% / 6);
 }
 
 // .row {

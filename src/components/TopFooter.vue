@@ -1,6 +1,6 @@
 <template>
   <section class="bg">
-    <div class="container">
+    <div class="container fx">
       <div class="col50 fx ji-between">
         <ul>
           <h3 class="txt-white">

@@ -1,6 +1,6 @@
 <template>
   <footer class="bg dc-darkgrey">
-    <div class="container jc-between">
+    <div class="container fx jc-between">
       <a class="btn txt-white" href="#
       ">SIGN UP NOW</a>        
       <div>

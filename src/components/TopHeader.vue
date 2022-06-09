@@ -1,6 +1,6 @@
 <template>
   <header class="bg white">
-    <div class="container jc-between ai-center">
+    <div class="container fx jc-between ai-center">
       <a href="#">
         <img src="../assets/img/dc-logo.png" alt="Logo DC Home">
       </a>
