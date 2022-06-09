@@ -105,11 +105,15 @@ export default {
 <style scoped lang="scss">
 
 section.bg {
-  padding: 30px 0;
+  // padding: 30px 0;
 
   .btn {
     padding: 20px;
     text-align: start;
+    position: relative;
+    bottom: 20px;
+    z-index: 30;
+
 
     div h3 {
       text-align: start;

@@ -1,11 +1,12 @@
 <template>
-  <div id="app">
-    <TopHeader>
-    </TopHeader>
-    <SecContents>
-    </SecContents>
-    <SecPurchases>
-    </SecPurchases>   
+  <div id="app" class="fx wrap">
+    <TopHeader :links="menu"/>
+    <!-- <main class="fx"> -->
+      <SecContents>
+      </SecContents>
+      <SecPurchases>
+      </SecPurchases>   
+    <!-- </main> -->
     <TopFooter>
     </TopFooter>
     <BottomFooter>
@@ -30,6 +31,63 @@ export default {
     SecContents,
     TopFooter,
     BottomFooter
+  },
+  data() {
+    return {
+      menu: [
+        {
+          text: "CHARACTERS",
+          url:"#",
+          current: false,
+        },
+        {
+          text: "COMICS",
+          url:"#",
+          current: true,
+        },
+        {
+          text: "MOVIES",
+          url:"#",
+          current: false,
+        },
+        {
+          text: "TV",
+          url:"#",
+          current: false,
+        },
+        {
+          text: "GAMES",
+          url:"#",
+          current: false,
+        },
+        {
+          text: "COLLECTIBLES",
+          url:"#",
+          current: false,
+        },
+        {
+          text: "VIDEOS",
+          url:"#",
+          current: false,
+        },
+        {
+          text: "FANS",
+          url:"#",
+          current: false,
+        },
+        {
+          text: "NEWS",
+          url:"#",
+          current: false,
+        },
+        {
+          text: "SHOP",
+          url:"#",
+          current: false,
+        },
+
+      ]
+    }
   }
 }
 </script>
@@ -92,7 +150,7 @@ export default {
 
 .bg {
   width: 100%;
-  padding: 5px 0;
+  // padding: 5px 0;
 }
 
 .container {
